@@ -1,0 +1,31 @@
+
+> funni-farm@0.1.0 predev
+> npm run clean-next-cache && npm run verify-required-files
+
+
+> funni-farm@0.1.0 clean-next-cache
+> node scripts/clean-next-cache.mjs
+
+Removed generated Next.js cache: .next
+
+> funni-farm@0.1.0 verify-required-files
+> node scripts/verify-required-files.mjs
+
+Required project files verified.
+
+> funni-farm@0.1.0 dev
+> next dev --hostname 127.0.0.1 --port 3001
+
+   ▲ Next.js 15.5.19
+   - Local:        http://127.0.0.1:3001
+   - Network:      http://127.0.0.1:3001
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 8s
+ ○ Compiling / ...
+ ✓ Compiled / in 12.5s (769 modules)
+ GET / 200 in 14671ms
+ ✓ Compiled in 1448ms (288 modules)
+ ✓ Compiled in 1234ms (288 modules)
+ ✓ Compiled in 420ms (288 modules)
